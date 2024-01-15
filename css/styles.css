@@ -36,7 +36,6 @@ a {
 .container-header {
   display: flex;
   justify-content: space-between;
-  padding: 0 15px;
 }
 
 .header-nav {
@@ -52,7 +51,7 @@ a {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 25.5px 0;
+  padding: 25px 0;
   margin-right: 76px;
 }
 .logo-header span {
@@ -80,6 +79,19 @@ a {
   letter-spacing: 0.32px;
   text-decoration: none;
   padding: 24px 0;
+}
+.current{
+  position: relative;
+}
+.current::after{
+  content: "";
+  position: absolute;
+  border-radius: 2px;
+background: #404BBF;
+height: 4px;
+width: 100%;
+bottom: -1px;
+left: 0;
 }
 .header-menu-list:hover {
   color: #404bbf;
@@ -118,6 +130,7 @@ a {
 
 .main-page {
   background-color: #2e2f42;
+  background-image:linear-gradient(to bottom, rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70) ), url(../images/people-office\ 1.jpg);
   padding: 188px 0;
 }
 .container-main {
@@ -182,6 +195,16 @@ a {
 .list-section-one-item {
   width: calc((100% - 72px) / 4);
   list-style-type: none;
+}
+.background-for-svg-recc{
+  border-radius: 4px;
+border: 1px solid #8E8F99;
+background: #F4F4FD;
+padding: 24px 100px;
+margin-bottom: 8px;
+}
+.svg-one-section{
+
 }
 .title-list-section-one {
   color: #2e2f42;
@@ -252,6 +275,19 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+    margin-bottom: 8px;
+}
+.list-icon {
+  display: flex;
+  gap: 24px;
+}
+.list-item-icon {
+  padding: 12px;
+  background-color: #4D5AE5;
+  border-radius: 50%;
+}
+.icon-media{
+  /* fill: #4D5AE5; */
 }
 /* ************************SECTION THREE ***********************/
 .section-three {
@@ -280,6 +316,12 @@ a {
   list-style-type: none;
   flex-shrink: 0;
   width: calc((100% - 48px) / 3);
+}
+.img-section-three{
+
+}
+.img-section-three:hover{
+  transition:cubic-bezier(0.6, 0.04, 0.98, 0.335)
 }
 .inform-section-three {
   display: flex;
@@ -310,6 +352,11 @@ a {
   padding: 100px 0;
   margin: auto;
 }
+.container-footer{
+  display: flex;
+  gap: 120px;
+
+}
 .logo-footer {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -336,4 +383,20 @@ a {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.list-icon-footer {
+  display: flex;
+  gap: 16px;
+}
+.list-item-icon-footer {
+  padding: 8px;
+  /* background-color: #4D5AE5; */
+  border-radius: 50%;
+}
+.icon-media-footer{
+  fill:#4D5AE5
+}
+.sm-footer-text{
+  margin-bottom: 16px;
+  color: #fff;
 }
