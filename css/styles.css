@@ -363,7 +363,7 @@ background-color: #404bbf
   position: relative;
   overflow: hidden;
 }
-.img-section-three:hover{
+.list-item-section-three:hover{
   transition:cubic-bezier(0.6, 0.04, 0.98, 0.335)
 }
 .text-transform{
