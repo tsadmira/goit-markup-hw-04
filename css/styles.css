@@ -356,8 +356,10 @@ background-color: #404bbf
 }
 .list-item-section-three:hover{
   box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transform:translateY(0%);
 
+}
+.list-item-section-three:hover .text-transform{
+  transform: translateY(0%);
 }
 .img-section-three{
   position: relative;
@@ -412,6 +414,9 @@ background-color: #404bbf
   display: flex;
   gap: 120px;
   align-items: baseline;
+}
+.container-footer-logo{
+margin-right: 120px;
 }
 .logo-footer {
   color: #4d5ae5;
@@ -470,7 +475,6 @@ background-color: #404bbf
   fill:#f4f4fd;
 }
 .container-sm-footer{
-  margin-right: 120px;
 }
 .sm-footer-text{
   margin-bottom: 16px;
